@@ -1,0 +1,5 @@
+function DM=swap(DM,p,k)
+    temp=DM(p,:);
+    DM(p,:)=DM(k,:);
+    DM(k,:)=temp;    
+end
